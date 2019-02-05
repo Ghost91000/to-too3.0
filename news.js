@@ -2,11 +2,10 @@ function whatNew(){
   var news = document.getElementById("news");
   news.style.opacity = "0";
   document.getElementById("tNews").innerHTML = " ";
-
   var list = document.getElementById("whatNew");
   var p = 21;
   var time = setInterval(function (){
-    if (p == 90){clearInterval(time); close();}
+    if (p == 90){clearInterval(time); close();list.style.overflow = "scroll";}
     else{
       list.style.height = p+"%";
       p += 1;
@@ -19,6 +18,7 @@ function close() {
   b.innerHTML = "Close";
   b.onclick = function () {buttonClose();};
 }
+
 function buttonClose () {
   var news = document.getElementById("news");
   news.style.opacity = "1";
@@ -34,8 +34,11 @@ function buttonClose () {
     }
   },5);
 }
+
 function again () {
   var b = document.getElementById("buton");
   b.innerHTML = "See more";
   b.onclick = function () {whatNew();};
+  var d = document.getElementById("whatNew");
+  d.style.overflow = "hidden";
 }
