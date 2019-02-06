@@ -1,7 +1,7 @@
 var angle = 0;
 function rot() {
   var time = setInterval (function(){
-    if (angle > 180){window.location.href ="registration.html";}
+    if (angle > 180){window.location.href ="news.html";}
     else {
   var t = document.getElementById("trianglee");
   t.style.transform = "rotate("+angle+"deg)";
