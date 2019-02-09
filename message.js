@@ -1,9 +1,13 @@
-function addMyMessage () {
-  var windows = document.getElementById("message");
+function addMyMessage() {
+  //var windows = document.getElementById("message");
   var text = document.getElementById("sent");
   var mes = document.createElement("div");
-  mes.innerHTML = text.value;
-  document.windows.appendChild(mes);
+  var tt = document.getElementById("words");
+  var t = tt.value;
+  mes.innerHTML = t;
+  mes.style.backgroundColor = "red";
+  mes.style.marginTop = "1%";
+  document.getElementById("message").appendChild(mes);
 
 }
 
