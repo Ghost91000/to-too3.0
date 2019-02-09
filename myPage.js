@@ -1,6 +1,4 @@
-var butPhoto = document.getElementById('mainPhoto');
-var modalwindow1 = document.getElementsByClassName('modalPhotos');
-
-butPhoto.onclick = function () {
+function fuckJs(){
+var modalwindow1 = document.getElementById('modalPhotos');
   modalwindow1.style.display="block";
 }

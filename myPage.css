@@ -60,7 +60,7 @@ body{background-color: #ff753f;
   position: absolute;
   margin-top: 21%;
 }
-.modalPhotos {
+#modalPhotos {
   display: none;
   position: fixed;
   width: 101%;
