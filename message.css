@@ -1,0 +1,39 @@
+#MenuPanel{
+  height:100%;
+  width: 6%;
+  position: fixed;
+  left: 0;
+  background-color: red;
+  margin-top: -8px;
+}
+.img{
+  display: inline-block;
+  width: 90%;
+  height: 10%;
+  margin-left: 7%;
+  margin-bottom: 50%;
+}
+.topPanel{
+  position: fixed;
+  height: 6%;
+  width: 94%;
+  top: 0;
+  background-color: red;
+}
+#message{
+  position: fixed;
+  overflow: scroll;
+  height: 88%;
+  width: 96%;
+  margin-top: 4.2%;
+  opacity:0.50;
+  background-color: #aeaeae;
+}
+#bottomPanel{
+  height:6%;
+  width: 94%;
+  position: fixed;
+  bottom: 0;
+  background-color: red;
+
+}
