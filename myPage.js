@@ -12,18 +12,30 @@ modalwindow.style.display="none";
 
 }
 
+var masPhoto =[
+  "examplePhoto1.jpg",
+  "examplePhoto2.jpg",
+  "bestTriangle.jpg"
+]
 
 function slider () {
-  var masPhoto =[
-    "examplePhoto1.jpg",
-    "examplePhoto2.jpg",
-    "bestTriangle.jng"
-  ]
+
   var num=0;
   var sliderr = document.getElementById("sliderr");
   num++;
   if (num>=masPhoto.lenght) {
     num=0;
+  }
+  sliderr.src = masPhoto[num];
+}
+
+function sliderback () {
+
+  var num=masPhoto.length;
+  var sliderr = document.getElementById("sliderr");
+  num--;
+  if (num<=0) {
+    num=masPhoto.length;
   }
   sliderr.src = masPhoto[num];
 }

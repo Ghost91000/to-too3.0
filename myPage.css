@@ -88,3 +88,7 @@ border: 1px;
   height: 100%;
   opacity: 0.5;
 }
+#innerModalPhotos {
+text-align: center;
+margin-top: 5%;
+}
