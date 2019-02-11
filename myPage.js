@@ -1,4 +1,3 @@
-
 var modalwindow = document.getElementById ("modalPhotos");
  function openn () {
      var modalwindow = document.getElementById ("modalPhotos");
@@ -38,4 +37,4 @@ function sliderback () {
     num=masPhoto.length;
   }
   sliderr.src = masPhoto[num];
-}
+
