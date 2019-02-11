@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>Профиль</title>
       <link rel="stylesheet" href="myPage.css">
-      <script type="text/javascript"src="myPage.js"></script>
+      <script type="text/javascript" src="myPage.js"></script>
+
 <link rel="shortcouch icon" href="bestTriangle.jpg" type="image/x-icon"/>
   </head>
   <body>
@@ -15,9 +16,17 @@
       <img class="icons" src="settings.png" alt="settings">
       <img class="icons" src="power.png" alt="exit">
     </div>
+    <div id="modalPhotos">
+      <div id="innerModalPhotos">
+      <button onclick="sliderback()" class="but"  type="button" name="next"></button>
+        <img id="sliderr" src="bestTriangle.jpg" alt="photo"  width='40%' height="50%">
+        <button onclick="slider()" class="but" type="button" name="prev"></button>
+        <button onclick="closess()"  type="button" name="button"></button>
+    </div> </div>
     <div class="poz">
+
        <!--<input id="mainPhoto" type="button"src="id-card.png" alt="photo">-->
-      <button type="button"id="mainPhoto" onclick="fuckJs()"><img id="mainPhoto" src="id-card.png" alt="photo"></button>
+      <img id="mainPhoto" onclick="openn()" src="id-card.png" alt="photo">
       <div id="friends"></br></br></br>+3</br> друга </div>
       <div id="morePhotos"></br></br></br>+3</br> фото </div>
       <div class="info">
