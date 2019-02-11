@@ -37,4 +37,4 @@ function sliderback () {
     num=masPhoto.length;
   }
   sliderr.src = masPhoto[num];
-
+}
