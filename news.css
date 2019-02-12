@@ -1,9 +1,9 @@
 #MenuPanel{
   height:100%;
-  width: 6%;
+  width: 4%;
   position: fixed;
   left: 0;
-  background-color: red;
+  background-color: #5c3d63;
   margin-top: -16px;
 }
 #news{
@@ -39,6 +39,5 @@
   width: 90%;
   height: 10%;
   margin-left: 7%;
-  margin-bottom: 50%;
-  position: absolute;
+  margin-bottom: 80%;
 }

@@ -1,12 +1,9 @@
-function addMyMessage () {
-  var windows = document.getElementById("message");
+function addMyMessage() {
   var text = document.getElementById("sent");
   var mes = document.createElement("div");
-  mes.innerHTML = text.value;
-  document.windows.appendChild(mes);
-
-}
-
-function addOthMessage () {
-
-}
+  var tt = document.getElementById("words");
+  var t = tt.value;
+  mes.innerHTML = t;
+  mes.id = "mes";
+  document.getElementById("message").appendChild(mes);
+ }
