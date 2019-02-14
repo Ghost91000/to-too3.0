@@ -2,6 +2,7 @@
 <html>
 <head>
 
+  <meta charset="UTF-8">
   <link rel="stylesheet" type="text/css" href="SignInPage.css"/>
   <script src="SignInPage.js"></script>
   <title>Вход</title>
@@ -16,13 +17,13 @@
 
 <h1 style="margin-left:46.91px;">Вход</h1>
 
-<form action="#" method="post">
-<p style="display: line-block;font-size: 20px;">Логин: <input placeholder=" grechneviy123" class="input"></input></p>
-<p style="display: line-block;margin-left: -8.5px;font-size: 20px;">Пароль: <input class="input" type="password" placeholder=" ************"></input></p>
+<form action="SignInPage.php" method="post">
+<p style="display: line-block;font-size: 20px;">Логин: <input placeholder=" grechneviy123" class="input" name="login"></input></p>
+<p style="display: line-block;margin-left: -8.5px;font-size: 20px;">Пароль: <input class="input" type="password" name="pass" placeholder=" ************"></input></p>
 </form>
 <p>Впервые у нас? <a href="registration.html" id="test">Зарегестрируйтесь</a></p>
 </div>
-
+<input type="submit" value="fuck back end"></input>
 <div>
 <input class="buttomOk" type="image" src="triangle_shadow_ok.png" onclick="rot()"></input>
 <img src="triangle.png" id="trianglee" alt="triangle">
